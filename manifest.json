@@ -1,0 +1,41 @@
+{
+  "name": "Emoncms",
+  "id": "emoncms",
+  "description": {
+    "en": "Emoncms is a powerful open-source web-app for processing, logging and visualising energy, temperature and other environmental data."
+  },
+  "developer": {
+    "name": "raoulh",
+    "email": "raoul@calaos.fr",
+    "url": "http://calaos.fr"
+  },
+  "multi_instance": "false",
+  "arguments": {
+    "install": [
+      {
+        "name": "domain",
+        "ask": {
+          "en": "Choose a domain for Emoncms"
+        },
+        "example": "domain.org"
+      },
+      {
+        "name": "path",
+        "ask": {
+          "en": "Choose a path for Emoncms"
+        },
+        "example": "/emoncms",
+        "default": "/emoncms"
+      },
+      {
+        "name": "server",
+        "ask": {
+          "en": "Choose IP where Emoncms is installed"
+        },
+        "example": "127.0.0.1",
+        "default": "127.0.0.1"
+      }
+    ]
+  }
+}
+
