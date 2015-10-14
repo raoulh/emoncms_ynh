@@ -3,7 +3,7 @@
 # Retrieve arguments
 domain=$(sudo yunohost app setting emoncms domain)
 path=$(sudo yunohost app setting emoncms path)
-ip=$(sudo yunohost app setting emoncms ip)
+ip=$(sudo yunohost app setting emoncms server)
 
 # Remove trailing "/" for next commands
 path=${path%/}
